@@ -13,7 +13,7 @@ For edge and corner pixels, the idea is to locally overextend the image using th
 [wikipedia page](https://en.wikipedia.org/wiki/Kernel_(image_processing))
 on the subject for more information.
 
-## Results
+## Examples
 
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Blur.jpg">
@@ -24,3 +24,7 @@ on the subject for more information.
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Edge_detection.jpg">
 </p>
+
+## Applications
+
+## How to compile and execute the files
