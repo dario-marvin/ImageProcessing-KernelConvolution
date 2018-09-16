@@ -19,13 +19,13 @@ data.close()
 	
 # !!! Choose only one kernel!!!	
 	
-#~ chosen_kernel = 'Identity' 							# does nothing
-#~ chosen_kernel = 'Blur' 									# does nothing
-#~ chosen_kernel = 'Gaussian_blur' 					# does nothing
-#~ chosen_kernel = 'Sharpen' 								# does nothing
-chosen_kernel = 'Emboss' 								# does nothing
-#~ chosen_kernel = 'Edge_detection' 				# does nothing
-#~ chosen_kernel = 'Laplacian_filter' 			# does nothing
+#~ chosen_kernel = 'Identity'
+#~ chosen_kernel = 'Blur'
+#~ chosen_kernel = 'Gaussian_blur'
+#~ chosen_kernel = 'Sharpen'
+chosen_kernel = 'Emboss'
+#~ chosen_kernel = 'Edge_detection'
+#~ chosen_kernel = 'Laplacian_filter'
 
 kernel = open('kernel.txt','w')
 kernel.write(chosen_kernel)
