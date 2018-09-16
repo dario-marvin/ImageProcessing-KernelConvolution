@@ -2,8 +2,10 @@
 
 # Work still in progress
 
+
+
 ## Kernel convolution
-The idea behind image processing with kernel convolution is to use a special convolution operation between the kernel, a matrix of weights, and the matrix of the image, containing its pixel values in the range [0, 255].  
+The idea behind image processing with kernel convolution is to use a special matricial operation called _convolution_ which takes as input two matrices: a matrix of weights, which is the kernel, and the matrix of the RGB values of our image (in the range [0, 255]).  
 For instance, if we use a 3x3 kernel matrix and for simplicity a 3x3 pixel image, the central pixel of the modfiied image will be evaluated as
 <p align="center">
  <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/570600fdeed436d98626278f22bf034ff5ab5162">
