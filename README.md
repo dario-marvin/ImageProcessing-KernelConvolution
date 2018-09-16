@@ -41,7 +41,7 @@ The gaussian blurring effect is obtained by employing a matrix where the values 
 In edge detection, we want to eliminate from the image the pixels that are equals to the immediately close one. To do this we consider a Kernel matrix given by
 <p align="center">
   <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/edgeDetect.png">
-</p>.
+</p>
 By doing so, if the central pixel and the 8 pixels surrounding it have the same value, the new pixels will have value 0, hence black.
 
 <p align="center">
