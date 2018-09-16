@@ -18,7 +18,11 @@ For edge and corner pixels, the idea is to locally overextend the image using th
 ## Examples
 ### Simple blurring
 
-image?
+Probably the most evident example of this technique is blurring. To achieve this effect, we use a Kernel matrix given by
+<p align="center">
+  <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/blur.png">
+</p>
+which means that every pixel is the calibrated mean of the 9 neighbours surrounding it.  
 
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Blur.jpg">
@@ -26,7 +30,7 @@ image?
 
 ### Gaussian blurring
 
-???
+The gaussian blurring effect is obtained by employing a matrix where the values are not constant as in the previous example, but are chosen according to the Gaussian distribution with regard to the vrtical and horizontal distance between each pixel and the considered one.
 
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Gaussian_blur.jpg">
@@ -34,7 +38,9 @@ image?
 
 ### Edge detection
 
-haah
+<p align="center">
+  <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/edgeDetect.png">
+</p>
 
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Edge_detection.jpg">
