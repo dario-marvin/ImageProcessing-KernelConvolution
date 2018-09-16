@@ -30,7 +30,7 @@ which means that every pixel is the calibrated mean of the 9 neighbours surround
 
 ### Gaussian blurring
 
-The gaussian blurring effect is obtained by employing a matrix where the values are not constant as in the previous example, but are chosen according to the Gaussian distribution with regard to the vrtical and horizontal distance between each pixel and the considered one.
+The gaussian blurring effect is obtained by employing a matrix where the values are not constant as in the previous example, but are chosen according to the Gaussian distribution with regard to the vertical and horizontal distance between each surrounding pixel and the central one. In this example we consider a 13x13 kernel matrix, thus the image appears more "smoothed" than the preceeding one.
 
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Gaussian_blur.jpg">
@@ -38,9 +38,11 @@ The gaussian blurring effect is obtained by employing a matrix where the values 
 
 ### Edge detection
 
+In edge detection, we want to eliminate from the image the pixels that are equals to the immediately close one. To do this we consider a Kernel matrix given by
 <p align="center">
   <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/edgeDetect.png">
-</p>
+</p>.
+By doing so, if the central pixel and the 8 pixels surrounding it have the same value, the new pixels will have value 0, hence black.
 
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Edge_detection.jpg">
