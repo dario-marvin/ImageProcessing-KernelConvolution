@@ -42,7 +42,7 @@ In edge detection, we want to eliminate from the image the pixels that are equal
 <p align="center">
   <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/edgeDetect.png">
 </p>
-By doing so, if the central pixel and the 8 pixels surrounding it have the same value, the new pixels will have value 0, hence black.
+By doing so, if the central pixel and the 8 pixels surrounding it have the same value, the new pixels will have value 0, hence it will be black.
 
 <p align="center">
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Edge_detection.jpg">
