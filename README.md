@@ -14,8 +14,6 @@ For edge and corner pixels, the idea is to locally overextend the image using th
 <p align="center">
  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/formula2.png">
 </p>
-Visit the dedicated wikipedia page for more information on how to handle corner cases.
-
 
 ## Examples
 
