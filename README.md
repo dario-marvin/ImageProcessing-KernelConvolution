@@ -10,7 +10,7 @@ For instance, supposing we use a 3x3 kernel matrix, the pixel RGB value at posit
 <p align="center">
  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/formula1.png">
 </p>
-For edge and corner pixels, the idea is to locally overextend the image using the available pixels, that is, the pixel RGB value at position [1,1] is  
+For edge and corner pixels, the idea is to locally overextend the image using the available pixels. For example the RGB value at position [1,1] is
 <p align="center">
  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/formula2.png">
 </p>
