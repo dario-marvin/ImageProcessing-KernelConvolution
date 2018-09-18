@@ -38,7 +38,7 @@ The gaussian blurring effect is obtained by employing a matrix where the values 
 
 ### Edge detection
 
-When performing edge detection, we want to highlight those pixels whose neighbours are not regular. Another equivalent way t state the problem is that we want to dampen those pixels who are equals in value to the immediately close ones. Thus we consider a Kernel matrix given by
+When performing edge detection, we want to highlight those pixels whose neighbours are not regular. Or, equivalently, we want to dampen those pixels who are equals in value to the immediately close ones. Thus we consider a Kernel matrix given by
 <p align="center">
   <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/edgeDetect.png">
 </p>
