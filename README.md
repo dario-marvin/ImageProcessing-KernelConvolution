@@ -25,7 +25,7 @@ Probably the most evident example of this technique is blurring. To achieve this
 which means that every pixel is the calibrated mean of the 9 neighbours surrounding it.  
 
 <p align="center">
-  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Blur.jpg">
+  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/rubik_Blur.jpg">
 </p>
 
 ### Gaussian blurring
@@ -33,7 +33,7 @@ which means that every pixel is the calibrated mean of the 9 neighbours surround
 The gaussian blurring effect is obtained by employing a matrix where the values are not constant as in the previous example, but are chosen according to the Gaussian distribution with regard to the vertical and horizontal distance between each surrounding pixel and the central one. In this example we consider a 13x13 kernel matrix, thus the image appears more "smoothed" than the preceeding one.
 
 <p align="center">
-  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Gaussian_blur.jpg">
+  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/rubik_Gaussian_blur.jpg">
 </p>
 
 ### Edge detection
@@ -45,19 +45,19 @@ When performing edge detection, we want to highlight those pixels whose neighbou
 Notice that by doing so, if the central pixel and the 8 surrounding ones have all the same value, the resulting pixel will have value 0, hence it will be black.
 
 <p align="center">
-  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Edge_detection.jpg">
+  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/rubik_Edge_detection.jpg">
 </p>
 
 ### Sharpen
 
 <p align="center">
-  <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/tibia_Sharpen.jpg">
+  <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/tibia_Sharpen.jpg">
 </p>
 
 ### Emboss
 
 <p align="center">
-  <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/tibia_Emboss.jpg">
+  <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/tibia_Emboss.jpg">
 </p>
 
 ## How to compile and execute the files
