@@ -1,0 +1,47 @@
+\documentclass[a4paper,11pt]{article}  
+\usepackage[utf8]{inputenc} 
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{chngpage}
+\usepackage{float}
+\usepackage{xargs}
+\usepackage{mathtools}
+\usepackage{avant}
+\usepackage{xcolor}
+\usepackage[left=0.75in,top=3in,right=0.75in,bottom=0.1in]{geometry} %
+
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\DeclareMathOperator{\Span}{span}
+\begin{document}
+
+$$\displaystyle \left({\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\end{bmatrix}}*{\begin{bmatrix}
+1&2&3&\cdots\\
+4&5&6&\cdots\\
+7&8&9&\cdots\\
+\vdots&\vdots&\vdots&\ddots
+
+\end{bmatrix}}\right)[2,2]=(i\cdot 1)+(h\cdot 2)+(g\cdot 3)+(f\cdot 4)+(e\cdot 5)+(d\cdot 6)+(c\cdot 7)+(b\cdot 8)+(a\cdot 9)$$
+
+
+$$\displaystyle \left({\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\end{bmatrix}}*{\begin{bmatrix}
+\textcolor{red}{1}&\textcolor{blue}{1}&\textcolor{red}{2}&&&\\
+\textcolor{violet}{1}&1&2&3&\cdots\\
+\textcolor{red}{4}&4&5&6&\cdots\\
+&7&8&9&\cdots\\
+&\vdots&\vdots&\vdots&\ddots
+
+\end{bmatrix}}\right)[1,1]=(i\cdot \textcolor{red}{1})+(h\cdot \textcolor{blue}{1})+(g\cdot \textcolor{red}{2})+(f\cdot \textcolor{violet}{1})+(e\cdot 1)+(d\cdot 2)+(c\cdot \textcolor{red}{4})+(b\cdot 4)+(a\cdot 5)$$
+
+
+\end{document}
