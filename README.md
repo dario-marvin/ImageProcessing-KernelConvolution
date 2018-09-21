@@ -15,7 +15,7 @@ For edge and corner pixels, the idea is to locally overextend the image using th
  <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/formula2.png">
 </p>
 
-## Examples
+## Examples and applications
 ### Simple blurring
 
 Probably the most evident example of this technique is blurring. To achieve this effect, we use a Kernel matrix given by
@@ -48,6 +48,16 @@ Notice that by doing so, if the central pixel and the 8 surrounding ones have al
   <img src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/rubik_Edge_detection.jpg">
 </p>
 
-## Applications
+### Sharpen
+
+<p align="center">
+  <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/tibia_Sharpen.jpg">
+</p>
+
+### Emboss
+
+<p align="center">
+  <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/tibia_Emboss.jpg">
+</p>
 
 ## How to compile and execute the files
