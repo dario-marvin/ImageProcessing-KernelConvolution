@@ -66,10 +66,11 @@ We apply this effect on a fractured tibia x-ray image and on a brain tumor MRI. 
 </p>
 
 ### Emboss
-
+Embossing is a particular processing used to give a 2D image an idea of tridimensionality. The kernal matrix
 <p align="center">
   <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/LaTex/emboss.png">
 </p>
+ensures that a border between two different colors separating top-left from bottom-right will be particularly highlighted depending on the pixels. For instance, when we go from a top darker area to a bottom lighter area, the border is highlighted in white, while the opposite occurs if you invert the colors. 
 
 <p align="center">
   <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/tibia_Emboss.jpg">
