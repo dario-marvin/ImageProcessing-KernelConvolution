@@ -49,10 +49,13 @@ Notice that by doing so, if the central pixel and the 8 surrounding ones have al
 </p>
 
 ### Sharpen
-
+Sharpening effects are applied by enhancing the constrast with pixels on the sides, thus we use a kernel matrix given by 
 <p align="center">
   <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/LaTex/sharpen.png">
 </p>
+
+We apply this effect on a fractured tibia x-ray image and on a brain tumor MRI. Both images where found on Google. 
+
 
 <p align="center">
   <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/tibia_Sharpen.jpg">
