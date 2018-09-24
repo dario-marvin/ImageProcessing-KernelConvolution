@@ -61,10 +61,13 @@ Notice that by doing so, if the central pixel and the 8 surrounding ones have al
 <p align="center">
   <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/brain_Sharpen.jpg">
 </p>
+
 ### Emboss
+
 <p align="center">
   <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/LaTex/emboss.png">
 </p>
+
 <p align="center">
   <img width=500 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/Images/tibia_Emboss.jpg">
 </p>
