@@ -20,7 +20,7 @@ For edge and corner pixels, the idea is to locally overextend the image using th
 
 Probably the most evident example of this technique is blurring. To achieve this effect, we use a Kernel matrix given by
 <p align="center">
-  <img width=200 src="hhttps://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/LaTex/blur.png">
+  <img width=200 src="https://github.com/dario-marvin/ImageProcessing-KernelConvolution/blob/master/LaTex/blur.png">
 </p>
 which means that every pixel is the calibrated mean of the 9 neighbours surrounding it.  
 
