@@ -67,8 +67,10 @@ Notice that by doing so, if the central pixel and the 8 surrounding ones have al
 </p>
 
 ## How to compile and execute the files
-### Only tested in Ubuntu 16.04, not tested for other systems or distributions
-Download the files `image_convolution.py` and `kernel_application.cc` in the same folder where you also have the image you want to process. At line 7 of `image_convolution.py` insert the name of your image and choose one of the kernel at lines 22-28. Then save your changes and within a terminal run the command
+#### Only tested in Ubuntu 16.04, not tested for other systems or distributions
+Download the files `image_convolution.py` and `kernel_application.cc` in the same folder where you also have the image you want to process.  
+At line 7 of `image_convolution.py` insert the name of your image and choose one of the kernel at lines 22-28.   
+Then save your changes, open a terminal and run the command
 ```
 python3 image_convolution.py
 ```
