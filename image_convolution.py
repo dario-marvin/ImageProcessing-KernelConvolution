@@ -4,7 +4,7 @@ import os
 import numpy as np
 from numpy import loadtxt
 
-im_name = 'brain';
+im_name = 'image_Sharpen_comparison';
 im = Image.open(im_name + '.jpg', 'r')
 width, height = im.size
 pixel_values = list(im.getdata())
@@ -19,13 +19,13 @@ data.close()
 	
 # !!! Choose only one kernel!!!	
 	
-#~ chosen_kernel = 'Identity'
-#~ chosen_kernel = 'Blur'
-#~ chosen_kernel = 'Gaussian_blur'
-#~ chosen_kernel = 'Sharpen'
-chosen_kernel = 'Emboss'
-#~ chosen_kernel = 'Edge_detection'
-#~ chosen_kernel = 'Laplacian_filter'
+# ~ chosen_kernel = 'Identity'
+# ~ chosen_kernel = 'Blur'
+# ~ chosen_kernel = 'Gaussian_blur'
+# ~ chosen_kernel = 'Sharpen'
+# ~ chosen_kernel = 'Emboss'
+chosen_kernel = 'Edge_detection'
+# ~ chosen_kernel = 'Laplacian_filter'
 
 kernel = open('kernel.txt','w')
 kernel.write(chosen_kernel)
@@ -45,9 +45,13 @@ for i in range(height):
 		counter = counter + 3
 
 img = Image.fromarray(data, 'RGB')
-out = Image.new('RGB', (2*width, height))
-out.paste(im, (0,0))
-out.paste(img, (width,0))
+out = Image.new('RGB', (width, height))
+out.paste(img, (0,0))
 out.save(im_name + '_' +chosen_kernel + '.jpg')
+
+out_comparison = Image.new('RGB', (2*width, height))
+out_comparison.paste(im, (0,0))
+out_comparison.paste(img, (width,0))
+out_comparison.save(im_name + '_' +chosen_kernel + '_comparison.jpg')
 os.system('rm raw_RGB_input.txt modified_RGB_data.txt kernel.txt kernel_application')
-out.show()
+out_comparison.show()
